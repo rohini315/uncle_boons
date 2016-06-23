@@ -19,3 +19,8 @@ end
    erb :reservation
    #"This is where you contact me"   
 end
+
+post '/res_response' do
+	erb :res_response
+	
+end
