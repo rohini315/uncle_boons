@@ -1,0 +1,49 @@
+nav {
+	margin: 20px 20px;
+	
+
+}
+
+ul,li {
+	list-style: none;
+	display: inline;
+	float: right;
+	padding-left: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #FF8A21;
+}
+
+a:hover {
+	color: #08AAB2;
+	
+}
+
+footer {
+	text-transform: uppercase;
+	background-color:#5C2229;
+	height: 55px;
+	color: #08AAB2;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+footer p {
+	margin: 19px 30px;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+#float_R {
+	float: right;
+}
+
+#float_L {
+	float: left;
+}
