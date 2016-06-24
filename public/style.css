@@ -313,7 +313,7 @@ figure {
   right: 0; 
   bottom: 0;
   min-width: 100%; 
-  
+
   min-height: 100%;
   width: auto; 
   height: auto;
@@ -330,7 +330,7 @@ figure {
   background-color: rgba(0, 0, 0, 1);
 }
 
-h1 {
+#index_wrapper h1 {
   position: absolute;
   top: 50%%;
   width: 100%;
@@ -341,3 +341,4 @@ h1 {
   text-align: right;
   right: 50px;
 }
+/*INDEX CSS END*/
