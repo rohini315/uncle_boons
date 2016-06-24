@@ -1,7 +1,142 @@
+/*general*/
+body {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+html, h5, p {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*CSS for reservation*/
+#r_content {
+    width: 900px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto 0;
+}
+#form_content h2{
+	text-decoration: none;
+    text-align: center;
+    color: #FF8A21;
+    font-family: sans-serif;
+    width: 900px;
+}
+#form_content h3{
+	text-decoration: none;
+    text-align: center;
+    color: #FF8A21;
+    font-family: sans-serif;
+    width: 900px;
+}
+#form_content{
+	border: 5px solid #5C2229;
+    padding: 10px 10px 30px;
+    margin: 0;
+    height: 100px;
+}
+#CcontentBorder h2{
+	text-decoration: none;
+	color: #E956CE;
+/*	#f2587f softer option*/
+	font-family: 'Lato', sans-serif;
+	width: 500px;
+    margin: 20px auto 25px;
+}
+#CcontentBorder p{
+	text-decoration: none;
+	color: #E956CE;
+/*	#f2587f softer option*/
+	font-family: 'Lato', sans-serif;
+	width: 500px;
+    margin:  0 auto 30px;
+}
+#link{
+	text-decoration: none;
+	color: #E956CE;
+	font-family: sans-serif;
+}
+
+
+form{
+	position: relative;
+    height: 60px;
+}
+
+.reser_select{
+	width: 200px;
+    display: block;
+    padding-top: 15px;
+    position: relative;
+    margin: auto 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    float: left;
+}
+
+.reser_select label {
+	width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    color: #aaa;
+    font-size: 12px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+
+.reser_select  select{
+    display: block;
+    height: 30px;
+    width: 100%;
+    /*remove defult style*/
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: right center;
+    /*remove defult style*/
+    
+    border-bottom: 2px solid #FF8A21;
+    background-image: url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif");
+    cursor: pointer;
+    color: rgba(0,0,0,.87);
+    font-size: 16px;
+    padding: 0 25px 0 0;
+ } 
+
+ #submit{
+	color: #08AAB2;
+	width: 150px;
+	padding: 20px auto;
+	position: absolute;
+	bottom: 20px;
+    right: 10px;
+}
+/*CSS for reservation end*/
+
+
+/*LAYOUT CSS STARTS*/
+
+ /*Nav CSS*/
+
 nav {
 	margin: 20px 20px;
-	
-
 }
 
 ul,li {
@@ -11,16 +146,16 @@ ul,li {
 	padding-left: 20px;
 }
 
-a {
+nav a {
 	text-decoration: none;
 	color: #FF8A21;
 }
 
-a:hover {
+nav a:hover {
 	color: #08AAB2;
 	
 }
-
+/*FOOTER CSS*/
 footer {
 	text-transform: uppercase;
 	background-color:#5C2229;
@@ -35,10 +170,9 @@ footer p {
 	margin: 19px 30px;
 }
 
-body{
-	padding: 0;
-	margin: 0;
-}
+/*LAYOUT CSS ENDS*/
+
+/*MENU CSS STARTS*/
 
 #float_R {
 	float: right;
@@ -109,3 +243,5 @@ figure {
 	height: 300px;
 	float: left;
 }
+
+/*MENU CSS ENDS*/

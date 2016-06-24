@@ -1,39 +1,49 @@
 <link rel="stylesheet" href="style.css">
+<div id="r_content">
 
-<form method="post" action="/res_response">
-
-
-	<select name="people">
-		<option value="2">2</option>
-	  	<option value="3">3</option>
-	  	<option value="4">4</option>
-	  	<option value="5">5</option>
-	  	<option value="6">5</option>
-	  	<option value="7">5</option>
-	  	
-	</select>
-
-	<select name="time">
-		<option value="5:30">5:30</option>
-	  	<option value="6:00">6:00</option>
-	  	<option value="6:30">6:30</option>
-	  	<option value="7:00">7:00</option>
-	  	<option value="7:30">7:30</option>
-	  	<option value="8:00">8:00</option>
-	  	<option value="8:30">8:30</option>
-	  	<option value="9:00">9:00</option>
-	  	<option value="9:30">9:30</option>
-	  
-	</select>
-
-	<select name="date">
-		<option value="Fri, Jun 24">Fri, Jun 24</option>
-	  	<option value="Sat, Jun 25">Sat, Jun 25</option>
-	  	<option value="Sun, Jun 26">Sun, Jun 26</option>
-	  	<option value="Mon, Jun 27">Mon, Jun 27</option>
-	  	<option value="Tues, Jun 28">Tues, Jun 28</option>
-	  	<option value="Wed, Jun 29">Wed, Jun 29</option>
-	  	<option value="Thurs, Jun 30">Thurs, Jun 30</option>
-	</select>
-<input type="submit">
-</form>
+	<div id="form_content">
+		<h2>RESERVATION</h2>
+		<form  method="post" action="/res_response">
+		<div id="form">
+			<div class="reser_select">
+				<label for="people">Party Size</label>
+				<select name="people">
+					<option value="2">2</option>
+				  	<option value="3">3</option>
+				  	<option value="4">4</option>
+				  	<option value="5">5</option>
+				  	<option value="6">5</option>
+				  	<option value="7">5</option>  	
+				</select>
+			</div>
+			<div class="reser_select">
+				<label for="time">TIME</label>
+				<select  name="time">
+					<option value="5:30">5:30</option>
+				  	<option value="6:00">6:00</option>
+				  	<option value="6:30">6:30</option>
+				  	<option value="7:00">7:00</option>
+				  	<option value="7:30">7:30</option>
+				  	<option value="8:00">8:00</option>
+				  	<option value="8:30">8:30</option>
+				  	<option value="9:00">9:00</option>
+				  	<option value="9:30">9:30</option>
+				</select>
+			</div>
+			<div class="reser_select">
+				<label for="date">DATE</label>
+				<select name="date" title="date">
+					<option value="Fri, Jun 24">Fri, Jun 24</option>
+				  	<option value="Sat, Jun 25">Sat, Jun 25</option>
+				  	<option value="Sun, Jun 26">Sun, Jun 26</option>
+				  	<option value="Mon, Jun 27">Mon, Jun 27</option>
+				  	<option value="Tues, Jun 28">Tues, Jun 28</option>
+				  	<option value="Wed, Jun 29">Wed, Jun 29</option>
+				  	<option value="Thurs, Jun 30">Thurs, Jun 30</option>
+				</select>
+			</div>
+			<input id="submit" type="submit">
+		</div>
+		</form>
+	</div>
+</div>
