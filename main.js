@@ -11,3 +11,4 @@ $(document).ready(function(){
 		$('#Ccontent').append("<h2 id='thanks'>THANK YOU!<br> I'll GET BACK TO YOU SHORTLY :)<h2>");
 	});
 });
+

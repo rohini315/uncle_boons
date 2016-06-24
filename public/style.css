@@ -136,14 +136,16 @@ form{
  /*Nav CSS*/
 
 nav {
-	margin: 20px 20px;
+	margin: 20px 50px;
 }
 
 ul,li {
 	list-style: none;
 	display: inline;
 	float: right;
-	padding-left: 20px;
+	padding-left: 50px;
+	margin-right: 10px;
+	margin-top: 0;
 }
 
 nav a {
@@ -173,6 +175,12 @@ footer p {
 /*LAYOUT CSS ENDS*/
 
 /*MENU CSS STARTS*/
+#wrapper{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 60px 100px;
+}
 
 #float_R {
 	float: right;
@@ -188,7 +196,8 @@ nav img {
 }
 
 .container{
-	width: 100vw;
+	width: 1400px;
+	height: 100%;
 	margin: 0 auto;
 }
 
@@ -230,12 +239,21 @@ figure {
 
 }
 
+.item_descript p, h2{
+	padding: 0 30px;
+	text-align: center;
+}
+
 .item_descript_r{
 	width:300px;
 	height: 300px;
 	margin: 0;
 	float: left;
+}
 
+.item_descript_r p, h2{
+	padding: 0 30px;
+	text-align: center;
 }
 
 .overlay{
@@ -245,3 +263,44 @@ figure {
 }
 
 /*MENU CSS ENDS*/
+
+/*INFO CSS*/
+
+#map{
+	width: 500px;
+}
+.container figure {
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.map_figure {
+	width: 500px;
+	height: 300px;
+	overflow: hidden;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+.map_zoom {
+	width: 500px;
+	height: 500px;
+	-webkit-transition: all .3s ease-out; 
+}
+
+
+.map_zoom:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.overlay>p{
+	height: 130px;
+	line-height: 1.7em;
+	font-size: 15px;
+}
