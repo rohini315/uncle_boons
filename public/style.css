@@ -1,6 +1,6 @@
 /*general*/
 body {
-    position: fixed;
+    /*position: fixed;*/
     top: 0px;
     left: 0px;
     right: 0px;
@@ -263,19 +263,33 @@ figure {
 }
 
 /*MENU CSS ENDS*/
-
+footer{
+	clear: both;
+}
 /*INFO CSS*/
 
 #map{
 	width: 500px;
 }
-.container figure {
+.info_container{
+	width: 1400px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.info_container figure {
 	width: 500px;
 	height: 500px;
 	overflow: hidden;
 	float: left;
 	margin: 0;
 	padding: 0;
+}
+
+.info_overlay{
+	width: 300px;
+	height: 100%;
+	float: left;
 }
 
 .map_figure {
