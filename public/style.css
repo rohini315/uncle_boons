@@ -396,3 +396,20 @@ figure {
   right: 50px;
 }
 /*INDEX CSS END*/
+
+#light_box {
+    background: rgba(0,0,0, .8);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;  
+    text-align: center;
+    background-size: cover;
+    position: fixed;
+}
+
+#light_box img {
+  margin: 10% auto 0;
+  width: 550px;
+  border-radius: 5px;
+}
