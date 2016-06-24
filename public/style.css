@@ -244,6 +244,10 @@ figure {
 	text-align: center;
 }
 
+.item_descript p {
+	height: 70px;
+}
+
 .item_descript_r{
 	width:300px;
 	height: 300px;
@@ -256,10 +260,24 @@ figure {
 	text-align: center;
 }
 
+.item_descript_r p {
+	height: 70px;
+}
 .overlay{
 	width: 600px;
 	height: 300px;
 	float: left;
+}
+
+.menu_heading{
+	width: 100%;
+	background-color: black;
+	height: 49px;
+}
+
+.menu_heading h2{
+	color: white;
+	text-align: center;
 }
 
 /*MENU CSS ENDS*/
