@@ -47,3 +47,65 @@ body{
 #float_L {
 	float: left;
 }
+
+nav img {
+	width: 220px;
+
+}
+
+.container{
+	width: 100vw;
+	margin: 0 auto;
+}
+
+figure {
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.fr {
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+.zoom {
+	width: 300px;
+	height: 300px;
+	-webkit-transition: all .3s ease-out; 
+}
+
+
+.zoom:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.item_descript{
+	width:300px;
+	height: 300px;
+	margin: 0;
+	float: right;
+
+}
+
+.item_descript_r{
+	width:300px;
+	height: 300px;
+	margin: 0;
+	float: left;
+
+}
+
+.overlay{
+	width: 600px;
+	height: 300px;
+	float: left;
+}
