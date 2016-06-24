@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+// For index.erb page
+
+	var block_nav=$("#block_nav");
+	var index_nav=$("#index_nav");
+
 	var form_content=$('#form_content');
 	$(cborder).hide();
 	$('#contactBtn').click(function(e){
