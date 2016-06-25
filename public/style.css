@@ -390,15 +390,14 @@ figure {
     top: 10px
 }
 #video_BG {
-  position: fixed;
-  right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-
-  min-height: 100%;
-  width: auto; 
-  height: auto;
-  z-index: -100;
+      position: fixed;
+      right: 0; 
+      bottom: 0;
+      min-width: 104%;   
+      min-height: 100%;
+      width: 104%;; 
+      height: 100vh;
+      z-index: -100;
 }
 
 #index_wrapper{
